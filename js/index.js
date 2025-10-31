@@ -4,7 +4,7 @@ const price = document.getElementById("product-price");
 const desc = document.getElementById("product-description");
 const btn = document.getElementById("addtocart");
 
-fetch("https://fakestoreapi.com/products/2")
+fetch("https://fakestoreapi.com/products/3")
   .then(response => response.json())
   .then(product => {
     image.src = product.image;

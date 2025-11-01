@@ -30,3 +30,10 @@ p{
 a{
     color:black;
 }
+#cartnum{
+    position:relative;
+    bottom:6px;
+    padding:2px;
+    font-size:20px;
+    
+}
